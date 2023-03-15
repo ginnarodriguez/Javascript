@@ -15,4 +15,15 @@ if (valorPasaje === 1000){//pueden ser dos o tres iguales pero los tres es más 
     console.log("El pasaje vale 1000")
 }
 
-//operadores logidos y(and: &&) o(or: ||) no(not)
+//operadores logidos y(and: &&) o(or: ||) no(not: !)
+
+const edadPasajero = 19;
+const estaAcompanado = true;
+
+if ((ciudades.indexOf(ciudadDestino)>= 0) && (edadPasajero >= 18 || estaAcompanado)){
+        console.log("Pasaje disponble para venta");
+    }else{
+        console.log("Ciudad no disponible para viajar o pasajero no cumple las reglas");
+    }
+
+
